@@ -1,0 +1,208 @@
+@font-face{
+    src:url(../fonts/Montserrat/Montserrat-BlackItalic.ttf);
+    font-family:"MONSTER";
+}
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Light.ttf);
+    font-family:"MERRIWEATHER";
+}
+@font-face{
+    src:url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "SACRAMENTO";
+}
+.cloud1{
+    position: absolute;
+    color:white;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    animation: Cloudleft 20s linear infinite;
+
+}
+.cloud2{
+    position: absolute;
+    color:white;
+    margin-bottom:10rem ;
+    margin-left: 10rem;
+    display:block;
+    animation:cloud2 20s linear infinite;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    background:linear-gradient(to bottom,rgb(10, 176, 241),white);
+    color:white;
+    position: relative;
+    height: 95vh;
+    padding-top: 10rem;
+} 
+@keyframes Cloudleft {
+    0%{
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-100vw);
+
+    }
+}
+@keyframes cloud2{
+    0%{
+        opacity: 0;
+        transform: translateX(-100vw);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(100vw);
+    }
+}
+.mtn{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    bottom: 15rem;
+}
+.name{
+    font-family: "SACRAMENTO";
+    font-size: 10rem;
+    margin-top:10rem;
+    text-align: center;
+  
+}
+.hello {
+    font-family:"MERRIWEATHER";
+    font-size: 5rem;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 5rem;
+}
+.profile{
+   border-radius: 20%;
+   margin-top: 2rem;
+   height: 2in;
+   display: block;
+   position: relative;
+   bottom: 1rem;
+
+}
+.browser{
+    float: left;
+    height: 2.5in;
+    margin: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.skillss{
+    font-family: "MERRIWEATHER";
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.skills{
+    font-family: "MERRIWEATHER";
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 9rem;
+}
+
+.status{
+    font-family: "MERRIWEATHER";
+    font-size: 5rem;
+    text-align: center;
+}
+.browser2{
+    float: right;
+    height:2.5in;
+    margin: 3rem;
+    margin-top: 0rem;
+}
+.ilove{
+    font-family: "MERRIWEATHER";
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15rem;
+    margin-bottom: 0rem;
+}
+.hobbies{
+    font-family: "MERRIWEATHER";
+    font-size: 2.5rem;
+    text-align: right;
+    margin-top: 6.5rem;
+}
+.GIT{
+    font-family: "MERRIWEATHER";
+    font-size: 3.2rem ;
+    margin-top: 15rem;
+    color: #157df5;
+    font-style: bold;
+    text-align: center;
+}
+/*.descript{
+    font-family: "MERRIWEATHER";
+    font-size: 2rem;
+}
+.btncon{
+
+}*/
+li{
+    padding:4rem;
+    display: inline;
+    padding-top: 1.5rem;
+}
+/*ul{
+    background:rgb(236, 153, 204) ;
+    color: white;
+}
+*/
+footer{
+    font-size: small;
+    background: skyblue;
+    color:white;
+}
+/*.copyright{
+    margin-top: 2rem;
+    font-family: "MERRIWEATHER";
+    font-size: 2rem;
+}*/
+
+.copyright{
+    margin-top: 7rem;
+    font-size: 1.7rem;
+    font-family: "MERRIWEATHER";
+    padding-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+.descript{
+    margin-top: 3rem;
+    font-size: 2.3rem;
+    font-family: "MERRIWEATHER";
+    text-align: center;
+
+}
+.btncon{
+    background: linear-gradient(to bottom, #157df5, #4799f7);
+    color: white;
+    font-family: "MERRIWEATHER";
+    font-size: 2.3rem;
+    border-radius: 0.5rem;
+    width: 2in;
+    height: 0.5in;
+    margin: 0.1rem;
+}
+div{
+    margin-top: 5rem;
+}
+.account{
+    padding-top: 1.5rem;
+    font-family: "MERRIWEATHER";
+    font-size: 1.8rem;
+    color: white;
+}
+
